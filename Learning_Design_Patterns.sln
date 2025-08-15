@@ -35,6 +35,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Facade", "Facade", "{408BF7
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Misollar", "Structural\Facade\Misollar\Misollar.csproj", "{056AA560-310E-4AEF-9B5F-2C29A858B2C9}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "EnterpriseIntegration", "EnterpriseIntegration", "{02EA681E-C7D8-13C7-8484-4AC65E1B71E8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OutBoxDesignPattern", "EnterpriseIntegration\OutBoxDesignPattern\OutBoxDesignPattern.csproj", "{5F07D9D2-3F3C-4398-B445-44B0179DE973}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -69,6 +73,10 @@ Global
 		{056AA560-310E-4AEF-9B5F-2C29A858B2C9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{056AA560-310E-4AEF-9B5F-2C29A858B2C9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{056AA560-310E-4AEF-9B5F-2C29A858B2C9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5F07D9D2-3F3C-4398-B445-44B0179DE973}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5F07D9D2-3F3C-4398-B445-44B0179DE973}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5F07D9D2-3F3C-4398-B445-44B0179DE973}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5F07D9D2-3F3C-4398-B445-44B0179DE973}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -88,5 +96,9 @@ Global
 		{61402080-FFD8-41B1-B64E-444320291955} = {E2231134-9C49-49A8-9BCA-E606E6F3C946}
 		{408BF78A-DE3B-4741-8825-FA14CA632883} = {8E10F1B5-6D46-4D12-855F-29AF0F085F46}
 		{056AA560-310E-4AEF-9B5F-2C29A858B2C9} = {408BF78A-DE3B-4741-8825-FA14CA632883}
+		{5F07D9D2-3F3C-4398-B445-44B0179DE973} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F52BEEFC-9BD9-40DA-BE0A-98426903CE10}
 	EndGlobalSection
 EndGlobal
